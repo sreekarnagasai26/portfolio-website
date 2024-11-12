@@ -1,19 +1,14 @@
-import './Card.css'
+import "./Card.css";
 
-const Card = () => {
+const Card = ({ project }) => {
+  return (
+    <div className="cardComponent">      
+      <img src={project.src} alt={project.name} />
+      <div>   
+        <button>{project.percentage}%</button> <p>{project.description}</p>{" "}
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className="cardComponent">
-            <img src="" alt="soma" />
-            <div>
-                <button>1</button>
-                <button>2</button>
-                <p>
-                    soma framework is a framework designed by myself and published in npm
-                </p>
-            </div>
-        </div>
-    )
-}
-
-export default Card
+export default Card;

@@ -1,0 +1,37 @@
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-title {
+    background-color: #f7f7f7;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
