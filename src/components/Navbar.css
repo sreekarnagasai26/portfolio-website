@@ -1,12 +1,7 @@
-.nav-list {
+.Navbar{
+    border: solid 2px grey;
+    padding: 1rem;
     display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-
+    justify-content: space-evenly;
 }
 
-.nav-item {
-    margin-right: 20px;
-}

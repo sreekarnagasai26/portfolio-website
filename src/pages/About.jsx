@@ -36,4 +36,6 @@ const handleSubmit = (e) => {
     </div>
   );
 };
+
+
 export default About;
